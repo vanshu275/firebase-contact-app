@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+body{
+    color: white;
+    background-color: #5A5959;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact{
+    background: #FFEAAE;
+    display: flex;
+    color: black;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.profile{
+    display: flex;
+    gap: 8px;
+}
+
+.text:nth-child(1){
+    font-weight: bold;
+}
+
+.options{
+    display: flex;
+    gap: 8px;
+}
